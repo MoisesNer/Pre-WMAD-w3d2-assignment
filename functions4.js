@@ -6,6 +6,14 @@ let example = [1, 'dog', 3, 'eight', 5, 'car', 7, 8];
 
 const logStringsAndNumbers = function (arr) {
 
+    for (let i = 0 ; i < example.length; i++) {
+        if (arr = Number) {
+            console.log (arr [i])
+
+        } else
+            console.log (arr [i] +" this is a string")    
+        }
+
 };
 
 logStringsAndNumbers(example);
@@ -21,3 +29,6 @@ car this is a string
 7
 8
 */
+
+
+//NOT SOLVED :'(

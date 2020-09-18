@@ -7,6 +7,14 @@ let example2 = [1, 2];
 
 const logThird= function (arr) {
 
+    if (arr[2]) {
+
+        console.log(arr[2]);
+    } else {
+
+        console.log ('There is no third item');
+    }
+
 };
 
 logThird(example);

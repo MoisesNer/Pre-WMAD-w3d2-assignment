@@ -4,8 +4,15 @@ let brokenSentence = ['I', 'am', 'a', 'broken', 'sentence'];
 
 const joinSentence= function (arr) {
 
+    console.log(arr.join (' '))
+
 };
 
 joinSentence(brokenSentence);
 
+
+
+const splitSentence= function (str) {
+    console.log(str.split(' '))
+  };
 
